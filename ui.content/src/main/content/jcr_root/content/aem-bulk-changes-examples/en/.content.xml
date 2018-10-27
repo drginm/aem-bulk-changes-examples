@@ -21,20 +21,10 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="What is Lorem Ipsum?"
                     sling:resourceType="aem-bulk-changes-examples/components/content/title"/>
-                <text1
+                <text
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="aem-bulk-changes-examples/components/content/text"
-                    text="First text"
-                    textIsRich="true"/>
-                <text2
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="aem-bulk-changes-examples/components/content/text"
-                    text="Second text"
-                    textIsRich="true"/>
-                <text3
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="aem-bulk-changes-examples/components/content/text"
-                    text="Third text"
+                    text="&lt;p>&lt;b>Lorem Ipsum&lt;/b>&amp;nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;br>&#xa;&lt;/p>&#xa;"
                     textIsRich="true"/>
                 <image
                     jcr:primaryType="nt:unstructured"
@@ -52,10 +42,21 @@
                     showModificationDate="false"
                     sortOrder="asc"
                     tagsMatch="any"/>
-                <helloworld
+                <helloworld1
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="aem-bulk-changes-examples/components/content/helloworld"/>
+                    sling:resourceType="aem-bulk-changes-examples/components/content/helloworld"
+                    text="First text"/>
+                <helloworld2
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="aem-bulk-changes-examples/components/content/helloworld"
+                    text="Second text"/>
+                <helloworld3
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="aem-bulk-changes-examples/components/content/helloworld"
+                    text="Third text"/>
                 <container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="aem-bulk-changes-examples/components/form/container"
