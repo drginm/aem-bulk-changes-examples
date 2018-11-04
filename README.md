@@ -1,6 +1,10 @@
 # Sample AEM project template
 
-This project is an example app for the [AEM Bulk editor Tips and tricks Youtube Video](https://youtu.be/DVWqAD842ac)
+This project is an example app for experimenting with AEM's bulk editor.
+
+You can read/see more about this in:
+
+* [AEM Bulk editor Tips and tricks Youtube Video](https://youtu.be/DVWqAD842ac)
 * [Using the Bulk editor for making multiple conntent changes inside Adobe experience manager Tips and tricks](https://www.dlighthouse.co/2018/11/using-aem-bulk-editor.html)
 
 
