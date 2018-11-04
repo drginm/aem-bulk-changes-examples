@@ -1,8 +1,8 @@
-mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate "-DarchetypeGroupId=com.adobe.granite.archetypes" "-DarchetypeArtifactId=aem-project-archetype" "-DarchetypeVersion=14" "-DarchetypeCatalog=https://repo.adobe.com/nexus/content/groups/public/" "-DgroupId=co.dlighthouse" "-DartifactId=aem-bulk-changes-examples" "-Dversion=0.1.0-SNAPSHOT" "-Dpackage=co.dlighthouse.aem.bulkchanges" "-DappsFolderName=aem-bulk-changes-examples" "-DconfFolderName=aem-bulk-changes-examples" "-DartifactName=AEM Bulk Changes Examples" "-DcomponentGroupName=AEM Bulk Changes Examples" "-DcontentFolderName=aem-bulk-changes-examples" "-DcssId=aem-bulk-changes-examples" "-DpackageGroup=aem-bulk-changes-examples" "-DsiteName=AEM Bulk Changes Examples"
-
 # Sample AEM project template
 
-This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
+This project is an example app for the [AEM Bulk editor Tips and tricks Youtube Video](https://youtu.be/DVWqAD842ac)
+* [Using the Bulk editor for making multiple conntent changes inside Adobe experience manager Tips and tricks](https://www.dlighthouse.co/2018/11/using-aem-bulk-editor.html)
+
 
 ## Modules
 
